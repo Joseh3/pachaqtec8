@@ -74,7 +74,75 @@ var n1,n2,vsuma;
   
 //11.Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un
 
-   
+   let antiguedad=4;
+   let bono=0;
+   vbono4=400;
+  // if (antiguedad > 0){
+
+ 
+   // elif (antiguedad == 1)
+    //bono=100
+   // elif (antiguedad == 1)
+    //bono=100
+    //elif (antiguedad == 2)
+    //bono=200
+    //elif (antiguedad == 3)
+    //bono=300
+    //elif (antiguedad == 4)
+    //bono=400
+    //elif (antiguedad == 5)
+    //bono=500
+//
+  //  else
+    //    bono=1000
+
+  
+  
+  
+  //13. Realice un algoritmo para leer las calificaciones de N alumnos y determine el
+///número de aprobados y reprobados
+    let aprobados=0;
+    let desaprobados=0;
+    let nota1= 10;
+    let nota2=14;
+    let nota3=15;
+    let nota4=17;
+    let nota5=20;
+    let promedio=(nota1+nota2+nota3+nota4+nota5)/5;
+    let promRound = Math.round(promedio)
+    if(nota1>=10)
+    console.log("aprobados");
+    else {
+    console.log("desaprobados");
+    }
+    if (nota2>=10) 
+    console.log("aprobados");
+    else {
+    console.log("desaprobados");
+    }
+    if (nota3>=10) 
+    console.log("aprobados");
+    else {
+    console.log("desaprobados");
+    }
+    if (nota4>=10) 
+    console.log("aprobados");
+    else {
+    console.log("desaprobados");
+    }
+    if (nota5>=10) 
+    console.log("aprobados");
+    else {
+    console.log("desaprobados");
+    }
+
+
+  //15. Votar en las proximas elecciones
+    let elecciones=0;
+    let votar= 18;
+
+
+
 
     console.log("la suma es" +" "+ vsuma);
     console.log("el promedio es" +" "+ vpromedio/4);
@@ -86,6 +154,7 @@ var n1,n2,vsuma;
     console.log("Cantidad de dinero es"+" "+ vdolares+" "+"Soles") ;
     console.log("Su edad es"+" "+ vedad+" "+"Años") ;
     console.log("la edad menor es "+" "+ edad5+" "+"Años") ;
-   
-
+    console.log("el bono por antiguedad es "+" "+vbono4) ;
+    console.log("Su nota es  "+" "+nota1+" " +"desaprobado") ;
+    console.log("Usted puede votar en las elecciones  "+" "+nota1+" " +"desaprobado") ;
     
