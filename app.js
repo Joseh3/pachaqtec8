@@ -1,160 +1,85 @@
-// variables 
-var n1,n2,vsuma;
-	
-	n1 = parseInt(prompt('Ingresar numero 1'));
-	n2 = parseInt(prompt('Ingresar numero 2'));
 
-	vsuma = n1 + n2;
-	document.write('La suma es '+vsuma);
-// 1.Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se
-//deberá imprimir en pantalla
 
-    let Number1=5;
-    let Number2=10;
-    vsuma=Number1+Number2;
-//2.Un estudiante realiza 4 exámenes, calcular el promedio de estos
-    let Number3=10;
-    let Number4=10;
-    let Number5=10;
-    let Number6=10;
-    vpromedio=Number3+Number4+Number5+Number6;
+// 1.Crea una función que retorne la potencia de un número dado, esta función deberá recibir la potencia y el número a potenciar.  
 
-//3.Calcular el área de un rectángulo
-    let base=5;
-    let altura=3;
-    let area;
-    area = base * altura;
+   const base=3;
+   const exponente = 2;
+   let r=1;
+   let i=0;
+   while(i<exponente){
+    r=r*base
+    i++;
+   }
 
-//4.Calcular el área de un triángulo
-    let base2=12;
-    let altura2=15;
-    let area2;
-    area2 = (base2 * altura2)/2;
-//5.Calcular el área de una circunferencia
-    let pi=3.1415;
-    let radio=6;
-    let area3=pi*Math.pow(radio,2);
-//6.Determinar el sueldo semanal de un trabajador basándose en sus horas
-//trabajadas y su salario de hora 
-    let horastrabajadas=63;
-    let salarioporhora=5;
-    vsalario=salarioporhora*horastrabajadas;
-
-//7.Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
-    let metro=10;
-    vpulgadas=metro / 0.0254;
-//8.Una empresa importadora desea determinar cuántos dólares puede adquirir
-    let dolarcompra=3.70;
-    let dinero=100;
-    vdolares=dolarcompra*dinero;
-
-//9 Una empresa que contrata personal requiere determinar la edad de las
-  
-    let año_actual=2023;
-    let año_nacimiento=1991;
-    vedad=año_actual - año_nacimiento;
-
-//10.Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la
-//edad de la persona de menor edad
-    let 
-    edad5=10;
-    edad6=20;
-    edad7=27;
-    edad8=34;
-    
-    if(edad5<=edad6 && edad5<=edad7 && edad5<=edad8){
-    
-    }else  if(edad6<=edad5 && edad6<=edad7 && edad6<=edad8) {
-       
-    }else  if(edad7<=edad5 && edad7<=edad6 && edad7<=edad8){
-
-    }
-
-    else{}
-  
-//11.Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un
-
-   let antiguedad=4;
-   let bono=0;
-   vbono4=400;
-  // if (antiguedad > 0){
-
+//2.Crea una función que tome el array números y devuelva la suma de sus cubos. sumOfCubes(1, 5, 9) 
  
-   // elif (antiguedad == 1)
-    //bono=100
-   // elif (antiguedad == 1)
-    //bono=100
-    //elif (antiguedad == 2)
-    //bono=200
-    //elif (antiguedad == 3)
-    //bono=300
-    //elif (antiguedad == 4)
-    //bono=400
-    //elif (antiguedad == 5)
-    //bono=500
-//
-  //  else
-    //    bono=1000
 
-  
-  
-  
-  //13. Realice un algoritmo para leer las calificaciones de N alumnos y determine el
-///número de aprobados y reprobados
-    let aprobados=0;
-    let desaprobados=0;
-    let nota1= 10;
-    let nota2=14;
-    let nota3=15;
-    let nota4=17;
-    let nota5=20;
-    let promedio=(nota1+nota2+nota3+nota4+nota5)/5;
-    let promRound = Math.round(promedio)
-    if(nota1>=10)
-    console.log("aprobados");
-    else {
-    console.log("desaprobados");
-    }
-    if (nota2>=10) 
-    console.log("aprobados");
-    else {
-    console.log("desaprobados");
-    }
-    if (nota3>=10) 
-    console.log("aprobados");
-    else {
-    console.log("desaprobados");
-    }
-    if (nota4>=10) 
-    console.log("aprobados");
-    else {
-    console.log("desaprobados");
-    }
-    if (nota5>=10) 
-    console.log("aprobados");
-    else {
-    console.log("desaprobados");
-    }
+const base2=8;
+const exponente2 =3;
+const total=855;
+let re=1;
+let ii=0;
+while(ii<exponente2){
+ re=re*base2
+ ii++;
+}
 
 
-  //15. Votar en las proximas elecciones
-    let elecciones=0;
-    let votar= 18;
+//3.Utilizando función arrow, crear una función que reciba como parámetros un nombre, apellido y edad y los retorne en un string concatenado “Hola mi nombre es sebastián yabiku y mi edad 33” 
+var uno,dos,tres;
+uno ="jose huamani";
+dos="33 años";
 
+var union=uno+dos;
 
-
-
-    console.log("la suma es" +" "+ vsuma);
-    console.log("el promedio es" +" "+ vpromedio/4);
-    console.log("el área del cuadrado es"+" "+ area);
-    console.log("el área del triángulo es"+" "+ area2 +"cm²");
-    console.log("el área de una circuferencia es"+" "+ area3);
-    console.log("Su sueldo semanal del trabajador es"+" "+ vsalario +" "+"Soles");
-    console.log("Debe Pedir"+" "+ vpulgadas);
-    console.log("Cantidad de dinero es"+" "+ vdolares+" "+"Soles") ;
-    console.log("Su edad es"+" "+ vedad+" "+"Años") ;
-    console.log("la edad menor es "+" "+ edad5+" "+"Años") ;
-    console.log("el bono por antiguedad es "+" "+vbono4) ;
-    console.log("Su nota es  "+" "+nota1+" " +"desaprobado") ;
-    console.log("Usted puede votar en las elecciones  "+" "+nota1+" " +"desaprobado") ;
     
+//4.Crear una función que reciba n cantidad de argumentos y los sume (utilizar parametros rest) 
+
+function sum(...theArgs) {
+    let total = 0;
+    for (const arg of theArgs) {
+      total += arg;
+    }
+    return total;
+  }
+  
+// 5.Crear una función que reciba un array de valores y filtre los valores que no son string. 
+
+const numeros = [1,2,3,4,5];
+let vegetales =['Repollo', 'Nabo', 'Rábano', 'Zanahoria']
+
+
+
+// 6.Cree una función que tome una array de números y devuelva los números mínimos y máximos, en ese orden. minMax([1, 2, 3, 4, 5]) ➞ [1, 5] 
+
+let valor=[3,6,8,11,6,2]
+const minMax = (arr) => {
+    arr.sort((a,b) => a-b)
+    return [arr[0] , arr[arr.length -1]]
+
+}
+
+minMax([5,4,3,2,1])
+
+//7. Escriba una función que tome un array de 10 enteros (entre 0 y 9) y devuelva una cadena en forma de un número de teléfono. 
+
+let array =([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) 
+
+
+
+console.log("El resultado es" +" "+ r);   
+console.log("El resultado es" +" "+ total);  
+console.log("Mi nombre es"+uno + "y mi edad es"+ " "+ dos);
+console.log(sum(1, 2, 3));
+
+  // Expected output: 6
+  
+  console.log(sum(1, 2, 3, 4));
+  // Expected output: 10
+
+  console.log(sum(1, 2, 3, 4,5));
+  // Expected output: 15
+console.log("resultado"+numeros);
+console.log(`el valor minimo del arreglo de numeros es ${Math.min(...valor)}`);
+console.log(`el valor minimo del arreglo de numeros es ${Math.max(...valor)}`);
+
