@@ -64,6 +64,7 @@ minMax([5,4,3,2,1])
 //7. Escriba una función que tome un array de 10 enteros (entre 0 y 9) y devuelva una cadena en forma de un número de teléfono. 
 
 let array =([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) 
+//
 
 
 
@@ -82,4 +83,4 @@ console.log(sum(1, 2, 3));
 console.log("resultado"+numeros);
 console.log(`el valor minimo del arreglo de numeros es ${Math.min(...valor)}`);
 console.log(`el valor minimo del arreglo de numeros es ${Math.max(...valor)}`);
-
+console.log (array);
